@@ -1,0 +1,92 @@
+{
+  "nodes": {
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1692174805,
+        "narHash": "sha256-xmNPFDi/AUMIxwgOH/IVom55Dks34u1g7sFKKebxUm0=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "caac0eb6bdcad0b32cb2522e03e4002c8975c62e",
+        "type": "github"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "ref": "nixos-unstable",
+        "type": "indirect"
+      }
+    },
+    "nixpkgs_2": {
+      "locked": {
+        "lastModified": 1692174805,
+        "narHash": "sha256-xmNPFDi/AUMIxwgOH/IVom55Dks34u1g7sFKKebxUm0=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "caac0eb6bdcad0b32cb2522e03e4002c8975c62e",
+        "type": "github"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "ref": "nixos-unstable",
+        "type": "indirect"
+      }
+    },
+    "nur": {
+      "locked": {
+        "lastModified": 1692275917,
+        "narHash": "sha256-PcUYd0Si3tFsxnT57IfiLy/s5VCPXuUoFK+SvQ7kexI=",
+        "owner": "nix-community",
+        "repo": "NUR",
+        "rev": "b7fcbcbbdbf2bbbda6965cbcc8f85542c314167c",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nix-community",
+        "repo": "NUR",
+        "type": "github"
+      }
+    },
+    "nur_2": {
+      "locked": {
+        "lastModified": 1692220584,
+        "narHash": "sha256-kgNOn2xvwtzgA3CC/xQ6Dg5vq7GZL+xMV95ESIFem4c=",
+        "owner": "nix-community",
+        "repo": "NUR",
+        "rev": "55680dae5e3f05f08c3b34a7aa7ca4901fe1d77b",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nix-community",
+        "repo": "NUR",
+        "type": "github"
+      }
+    },
+    "python-engineio": {
+      "inputs": {
+        "nixpkgs": "nixpkgs_2",
+        "nur": "nur_2"
+      },
+      "locked": {
+        "lastModified": 1692299550,
+        "narHash": "sha256-hxuKmCmovdC6mnGfFtN+9Dk6vmS82fhvUVbRpDAmK/8=",
+        "ref": "refs/heads/feature/python3.11_fixes",
+        "rev": "9e82c6ef77ecb0573fae33a3522cd452e712a4eb",
+        "revCount": 475,
+        "type": "git",
+        "url": "file:///home/graham/git/graham33/python-engineio"
+      },
+      "original": {
+        "type": "git",
+        "url": "file:///home/graham/git/graham33/python-engineio"
+      }
+    },
+    "root": {
+      "inputs": {
+        "nixpkgs": "nixpkgs",
+        "nur": "nur",
+        "python-engineio": "python-engineio"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}

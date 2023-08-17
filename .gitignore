@@ -43,3 +43,7 @@ venv*
 tags
 htmlcov
 *.swp
+
+# Nix and Direnv
+/result*
+/.direnv
